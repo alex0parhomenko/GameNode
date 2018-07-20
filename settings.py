@@ -1,5 +1,7 @@
 HOST = 'localhost'
 DBNAME = 'gamenode'
-USER = 'root'
-PASSWORD = 'StGeorgeKaspar'
+USER = 'george'
+PASSWORD = 'Qw123456'
 VERSION = 'v1.0'
+DEBUG = True
+PORT = 5000

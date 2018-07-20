@@ -12,3 +12,7 @@ db = MySQLdb.connect(HOST, USER, PASSWORD, DBNAME)
 def get_datetime():
     now = datetime.now()
     return jsonify(day=now.day, year=now.year, month=now.month, hour=now.hour, minute=now.minute, second=now.second)
+
+if __name__ == '__main__':
+    app.debug = DEBUG
+    app.run(host=HOST, port=PORT)
