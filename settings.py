@@ -1,0 +1,5 @@
+HOST = 'localhost'
+DBNAME = 'gamenode'
+USER = 'root'
+PASSWORD = 'StGeorgeKaspar'
+VERSION = 'v1.0'
